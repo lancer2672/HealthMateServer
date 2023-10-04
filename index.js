@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config();
 
-const connectDB = require("./db");
+const connectDB = require("./src/db");
 // const mainRoute = require("./routes");
 const path = require("path");
 
